@@ -36,6 +36,9 @@ export default class extends Vue {
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(min(20rem, 100%), 1fr));
   }
+  .container {
+    padding:0 0.5rem;
+  }
 
   .card {
     border: 1px solid #f2f2f2;
